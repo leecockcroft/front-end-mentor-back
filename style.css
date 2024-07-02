@@ -1,0 +1,181 @@
+
+
+:root{
+ --Nutmeg:hsl(14, 45%, 36%);
+--DarkRaspberry: hsl(332, 51%, 32%);
+--White:hsl(0, 0%, 100%);
+    --RoseWhite:hsl(330, 100%, 98%);
+    --Eggshell:hsl(30, 54%, 90%);
+    --LightGrey:hsl(30, 18%, 87%);
+    --WengeBrown:hsl(30, 10%, 34%);
+    --DarkCharcoal:hsl(24, 5%, 18%);
+
+
+}
+
+@font-face {
+    font-family: 'youngserif'; /* Name your font family */
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf'); /* Locate the .ttf file within your directory*/
+  }
+  @font-face {
+    font-family: 'outfit'; /* Name your font family */
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-size:62.5%;
+}
+
+img{
+    width:100%;
+}
+
+
+.wrapper{
+    max-width:1440px;
+   margin:auto;
+    background:var(--Eggshell);
+}
+
+
+
+.container{
+  
+    margin:auto;
+    max-width:736px;
+    padding: 0 3.2em;
+    background:#fff;
+
+   
+  
+}
+
+
+.image-container{
+    margin-bottom:4em;
+}
+
+
+
+@media only screen and (min-width: 768px){
+
+
+.container{
+    padding: 0 4em;
+}
+
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper li {
+  
+    
+}
+.prep-time{
+    padding: 1.8em 0 0 1.4rem;
+    margin: 3.2rem 0;
+    
+   
+}
+.ingredients ,.instructions,.nutrition{
+margin-bottom:3.2em;
+
+}
+ul li, ol li {
+    list-style-position: inside;
+    line-height: 1.4;
+    padding: 0.4em 0;
+}
+
+li::marker{
+    color: var(--DarkRaspberry);
+    font-weight:800;
+}
+
+li{
+    color:var(--WengeBrown);
+}
+
+
+.prep-ul{
+    padding-left:1em;
+ }
+
+ .prep-time h3 {
+    color: var(--DarkRaspberry);
+ }
+
+ .ingredients h3, .instructions h3,.nutrition h3 {
+
+    color: var(--Nutmeg);
+    font-size: 1.8rem;
+    font-family: 'youngserif';
+ 
+    font-weight: 400;
+ }
+
+h3{
+   
+    font-size:1.3rem;
+    padding-bottom:1.6rem
+}
+
+
+.header-section h2 {
+    margin-bottom: 24px;
+    font-size:2.3rem;
+    font-family:'youngserif';
+    font-weight:400;
+
+}
+.header-section p {
+    line-height: 1.6em;
+    font-weight: 400;
+}
+.main-text{
+    font-size:1.6em;
+    font-family:'outfit';
+}
+
+.prep-time{
+    background:var(--RoseWhite);
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em 2em;
+    /* align-items: flex-end; */
+    /* width: 63%; */
+    border-bottom: 1px solid var(--LightGrey);
+}
+
+
+.nutrition p {
+    margin-bottom:24px;
+}
+.red{
+    width: 50%;
+    color: var(--Nutmeg);
+    font-weight: 800;
+}
