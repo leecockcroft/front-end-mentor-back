@@ -183,7 +183,7 @@ h3{
 
 @media only screen and (min-width: 768px){
     .wrapper{
-        padding: 40px;
+        padding: 123px 0;
     }
     .container{
         padding: 2px 4em;
