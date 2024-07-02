@@ -179,3 +179,17 @@ h3{
     color: var(--Nutmeg);
     font-weight: 800;
 }
+
+
+@media only screen and (min-width: 768px){
+    .wrapper{
+        padding: 40px;
+    }
+    .container{
+        padding: 2px 4em;
+    }
+    .image-container{
+        margin-top:40px;
+    }
+
+}
