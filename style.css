@@ -30,8 +30,12 @@
     box-sizing: border-box;
    
 }
+
 body{
     font-size:62.5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
@@ -39,9 +43,9 @@ img{
 }
 
 
-.wrapper{
-    max-width:1440px;
-   margin:auto;
+main{
+    /* max-width:1440px;
+   margin:auto; */
     background:var(--Eggshell);
 }
 
@@ -49,11 +53,10 @@ img{
 
 .container{
   
-    margin:auto;
+    /* margin:auto;
     max-width:736px;
     padding: 0 3.2em;
-    background:#fff;
-         border-radius: 15px;
+    background:#fff; */
 
    
   
@@ -70,7 +73,7 @@ img{
 
 
 .container{
-    padding: 0 4em;
+
 }
 
 }
@@ -184,7 +187,7 @@ h3{
 
 @media only screen and (min-width: 768px){
     .wrapper{
-        padding: 123px 0;
+        padding: 40px;
     }
     .container{
         padding: 2px 4em;
